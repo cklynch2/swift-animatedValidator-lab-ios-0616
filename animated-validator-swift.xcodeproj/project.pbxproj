@@ -15,7 +15,6 @@
 		1B136C221D216FBD004DC0F3 /* animated_validator_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B136C211D216FBD004DC0F3 /* animated_validator_swiftUITests.swift */; };
 		1B136C721D217B96004DC0F3 /* ValidatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B136C711D217B96004DC0F3 /* ValidatorViewController.swift */; };
 		1B136C761D217D69004DC0F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B136C751D217D69004DC0F3 /* Constants.swift */; };
-		1BC3A3271D242909007249EE /* AnimatedValidatorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC3A3261D242909007249EE /* AnimatedValidatorSwiftTests.swift */; };
 		614EF00AD7A44F8CE6EDDAEA /* Pods_animated_validator_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D506C47CB98E80EAEEBF92 /* Pods_animated_validator_swiftUITests.framework */; };
 		7252E457A7FC40F7F981CE72 /* Pods_animated_validator_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C122119BECAA60CD1470309 /* Pods_animated_validator_swiftTests.framework */; };
 		E113EED85F0875ED4DF0B697 /* Pods_animated_validator_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68667BCBEDC6B1DF663113C /* Pods_animated_validator_swift.framework */; };
@@ -444,7 +443,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B136C171D216FBD004DC0F3 /* animated_validator_swiftTests.swift in Sources */,
-				1BC3A3271D242909007249EE /* AnimatedValidatorSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,13 +31,17 @@ class ValidatorViewController: QuickSpec {
                 
                 expect(submitButton.enabled).to(beFalse())
                 
+
                 tester.tapViewWithAccessibilityLabel(Constants.EMAILCONFIRMTEXTFIELD)
                 tester.enterText("susan@flatironschool.com", intoViewWithAccessibilityLabel: Constants.EMAILCONFIRMTEXTFIELD)
                 
                 expect(submitButton.enabled).to(beFalse())
                 
                 tester.tapViewWithAccessibilityLabel(Constants.PHONETEXTFIELD)
+
                 tester.enterText("6466440584", intoViewWithAccessibilityLabel: Constants.PHONETEXTFIELD)
+
+
                 
                 expect(submitButton.enabled).to(beFalse())
                 
